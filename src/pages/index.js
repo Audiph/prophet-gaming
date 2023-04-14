@@ -2,6 +2,8 @@ import Layout from '@/components/Layout';
 import Head from 'next/head';
 import Image from 'next/image';
 import prophetPhoto from '../../public/images/propetagaming.png';
+import AnimatedText from '@/components/AnimatedText';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -20,14 +22,26 @@ export default function Home() {
                 className="w-full h-auto"
               />
             </div>
-            <div className="w-1/2">
-              <h1>Hello, we are the Prohet Gaming.</h1>
-              <p>
+            <div className="w-1/2 flex flex-col items-center self-center">
+              <AnimatedText
+                text="Hello, we are the Prohet Gaming."
+                className="!text-6xl text-left"
+              />
+              <p className="my-4 text-base font-medium">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
                 nisi ut aliquip ex ea commodo consequat.
               </p>
+              <div className="flex items-center self-start mt-2">
+                <Link
+                  href="https://discord.gg/kJBrUsmdjp"
+                  target={'_blank'}
+                  className="flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark"
+                >
+                  Join us!
+                </Link>
+              </div>
             </div>
           </div>
         </Layout>
