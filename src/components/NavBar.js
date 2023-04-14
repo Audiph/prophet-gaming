@@ -2,6 +2,8 @@ import Link from 'next/link';
 import React from 'react';
 import Logo from './Logo';
 import { useRouter } from 'next/router';
+import { DiscordIcon, FacebookIcon, GithubIcon } from './Icons';
+import { motion } from 'framer-motion';
 
 const CustomLink = ({ href, title, className = '' }) => {
   const router = useRouter();
@@ -28,19 +30,35 @@ const NavBar = () => {
         <CustomLink href="/games" title="Games" className="mx-4" />
         <CustomLink href="/articles" title="Articles" className="ml-4" />
       </nav>
-      <nav>
-        <Link href="https://www.facebook.com/propetagaming" target={'_blank'}>
-          T
-        </Link>
-        <Link
+
+      <nav className="flex items-center justify-center flex-wrap">
+        <motion.a
+          href="https://www.facebook.com/propetagaming"
+          target={'_blank'}
+          whileHover={{ y: -2 }}
+          whileTap={{ scale: 0.9 }}
+          className="w-6 mx-3"
+        >
+          <FacebookIcon />
+        </motion.a>
+        <motion.a
           href="https://discords.com/servers/700876309194080298"
           target={'_blank'}
+          whileHover={{ y: -2 }}
+          whileTap={{ scale: 0.9 }}
+          className="w-6 mx-3"
         >
-          T
-        </Link>
-        <Link href="https://github.com/Audiph" target={'_blank'}>
-          T
-        </Link>
+          <DiscordIcon />
+        </motion.a>
+        <motion.a
+          href="https://github.com/Audiph"
+          target={'_blank'}
+          whileHover={{ y: -2 }}
+          whileTap={{ scale: 0.9 }}
+          className="w-6 ml-3"
+        >
+          <GithubIcon />
+        </motion.a>
       </nav>
 
       <div className="absolute left-[50%] top-2 translate-x-[-50%]">
