@@ -4,6 +4,7 @@ import Image from 'next/image';
 import prophetPhoto from '../../public/images/propetagaming.png';
 import AnimatedText from '@/components/AnimatedText';
 import Link from 'next/link';
+import JoinUs from '@/components/JoinUs';
 
 export default function Home() {
   return (
@@ -35,16 +36,17 @@ export default function Home() {
               </p>
               <div className="flex items-center self-start mt-2">
                 <Link
-                  href="https://discord.gg/kJBrUsmdjp"
+                  href="https://www.facebook.com/messages/t/101850898533896"
                   target={'_blank'}
                   className="flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark"
                 >
-                  Join us!
+                  Message Us!
                 </Link>
               </div>
             </div>
           </div>
         </Layout>
+        <JoinUs />
       </main>
     </>
   );
