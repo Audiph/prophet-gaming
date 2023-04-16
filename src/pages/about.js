@@ -5,6 +5,7 @@ import Image from 'next/image';
 import React, { useEffect, useRef } from 'react';
 import prophetPhoto from '../../public/images/propetagaming.jpg';
 import { useInView, useMotionValue, useSpring } from 'framer-motion';
+import Games from '@/components/Games';
 
 const AnimatedNumber = ({ value }) => {
   const ref = useRef(null);
@@ -106,6 +107,7 @@ const about = () => {
               </div>
             </div>
           </div>
+          <Games />
         </Layout>
       </main>
     </>
