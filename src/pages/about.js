@@ -7,6 +7,7 @@ import prophetPhoto from '../../public/images/propetagaming.jpg';
 import { useInView, useMotionValue, useSpring } from 'framer-motion';
 import Games from '@/components/Games';
 import Founders from '@/components/Founders';
+import Moderators from '@/components/Moderators';
 
 const AnimatedNumber = ({ value }) => {
   const ref = useRef(null);
@@ -110,6 +111,7 @@ const about = () => {
           </div>
           <Games />
           <Founders />
+          <Moderators />
         </Layout>
       </main>
     </>

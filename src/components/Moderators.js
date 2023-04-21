@@ -27,7 +27,7 @@ const Details = ({ name, role, country, details }) => {
   );
 };
 
-const Founders = () => {
+const Moderators = () => {
   const ref = useRef(null);
 
   const { scrollYProgress } = useScroll({
@@ -37,7 +37,9 @@ const Founders = () => {
 
   return (
     <div className="my-64">
-      <h2 className="font-bold text-8xl mb-32 w-full text-center">Founders</h2>
+      <h2 className="font-bold text-8xl mb-32 w-full text-center">
+        Moderators
+      </h2>
 
       <div ref={ref} className="w-[75%] mx-auto relative">
         <motion.div
@@ -46,26 +48,14 @@ const Founders = () => {
         />
         <ul className="w-full flex flex-col items-start justify-between ml-4">
           <Details
-            name="Fauda"
-            role="Creator"
+            name="Zoro-kol"
+            role="Moderator"
             country="Philippines"
             details="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
           />
           <Details
-            name="Hugr"
-            role="Co-Founder"
-            country="Philippines"
-            details="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-          />
-          <Details
-            name="Kapitan Tiago"
-            role="Co-Founder"
-            country="Philippines"
-            details="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-          />
-          <Details
-            name="Krisp"
-            role="Co-Founder"
+            name="Boss Gendo"
+            role="Moderator"
             country="Philippines"
             details="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
           />
@@ -75,4 +65,4 @@ const Founders = () => {
   );
 };
 
-export default Founders;
+export default Moderators;
