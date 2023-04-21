@@ -6,6 +6,7 @@ import React, { useEffect, useRef } from 'react';
 import prophetPhoto from '../../public/images/propetagaming.jpg';
 import { useInView, useMotionValue, useSpring } from 'framer-motion';
 import Games from '@/components/Games';
+import Founders from '@/components/Founders';
 
 const AnimatedNumber = ({ value }) => {
   const ref = useRef(null);
@@ -108,6 +109,7 @@ const about = () => {
             </div>
           </div>
           <Games />
+          <Founders />
         </Layout>
       </main>
     </>
