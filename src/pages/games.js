@@ -11,6 +11,9 @@ import valorantPic from '../../public/images/valorant.jpg';
 import outlasttrialsPic from '../../public/images/outlasttrials.jpg';
 import pubgPic from '../../public/images/pubg.jpg';
 import amongusPic from '../../public/images/amongus.jpg';
+import { motion } from 'framer-motion';
+
+const FramerImage = motion(Image);
 
 const FeaturedGame = ({ type, title, summary, img, link }) => {
   return (
@@ -21,7 +24,13 @@ const FeaturedGame = ({ type, title, summary, img, link }) => {
         target="_blank"
         className="w-1/2 cursor-pointer overflow-hidden rounded-lg"
       >
-        <Image src={img} alt={title} className="w-full h-auto" />
+        <FramerImage
+          src={img}
+          alt={title}
+          className="w-full h-auto"
+          whileHover={{ scale: 1.05 }}
+          transition={{ duration: 0.2 }}
+        />
       </Link>
 
       <div className="w-1/2 flex flex-col items-start justify-between pl-6">
@@ -57,7 +66,13 @@ const Game = ({ title, type, img, link }) => {
         target="_blank"
         className="w-full cursor-pointer overflow-hidden rounded-lg"
       >
-        <Image src={img} alt={title} className="w-full h-auto" />
+        <FramerImage
+          src={img}
+          alt={title}
+          className="w-full h-auto"
+          whileHover={{ scale: 1.05 }}
+          transition={{ duration: 0.2 }}
+        />
       </Link>
 
       <div className="w-full flex flex-col items-start justify-between mt-4">
