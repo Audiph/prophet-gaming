@@ -6,7 +6,7 @@ import { DiscordIconBNW, FacebookIconBNW, GithubIconBNW } from './Icons';
 const Footer = () => {
   return (
     <footer className="w-full border-t-2 border-solid border-dark font-medium text-lg">
-      <Layout className="py-8 flex items-center justify-between !bg-black">
+      <Layout className="py-8 flex items-center justify-between !bg-dark dark:!bg-light">
         <span className="text-white">
           {new Date().getFullYear()} &copy; All Rights Reserved
         </span>
