@@ -38,7 +38,7 @@ const about = () => {
         <title>ProphetGaming | About</title>
         <meta name="description" content="About Prophet Gaming" />
       </Head>
-      <main className="flex w-full flex-col items-center justify-center">
+      <main className="flex w-full flex-col items-center justify-center dark:text-light">
         <Layout className="pt-16">
           <AnimatedText text="Feel it - Who are we?" className="mb-16" />
           <div className="grid w-full grid-cols-8 gap-16">
@@ -85,7 +85,7 @@ const about = () => {
                 <span className="inline-block text-7xl font-bold">
                   <AnimatedNumber value={30} />+
                 </span>
-                <h2 className="text-xl font-medium capitalize text-dark/75">
+                <h2 className="text-xl font-medium capitalize text-dark/75 dark:text-light/75">
                   Average Active Members
                 </h2>
               </div>
@@ -94,7 +94,7 @@ const about = () => {
                 <span className="inline-block text-7xl font-bold">
                   <AnimatedNumber value={250} />+
                 </span>
-                <h2 className="text-xl font-medium capitalize text-dark/75">
+                <h2 className="text-xl font-medium capitalize text-dark/75 dark:text-light/75">
                   Total Members
                 </h2>
               </div>
@@ -103,7 +103,7 @@ const about = () => {
                 <span className="inline-block text-7xl font-bold">
                   <AnimatedNumber value={new Date().getFullYear() - 2020} />+
                 </span>
-                <h2 className="text-xl font-medium capitalize text-dark/75">
+                <h2 className="text-xl font-medium capitalize text-dark/75 dark:text-light/75">
                   Years Active
                 </h2>
               </div>

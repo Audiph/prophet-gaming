@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 
 const useThemeSwitcher = () => {
   const preferDarkQuery = '(prefer-color-scheme: dark)';
@@ -29,6 +29,8 @@ const useThemeSwitcher = () => {
         }
       }
     };
+
+    handleChange();
 
     mediaQuery.addEventListener('change', handleChange);
 
