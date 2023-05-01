@@ -13,6 +13,7 @@ import mdxPic from '../../public/images/mdx.jpg';
 import protocolPic from '../../public/images/protocol.png';
 import turbopackPic from '../../public/images/turbopack.jpg';
 import dynamicbreakpointsPic from '../../public/images/dynamicbreakpoints.jpg';
+import TransitionEffect from '@/components/TransitionEffect';
 
 const FramerImage = motion(Image);
 
@@ -113,7 +114,7 @@ const articles = () => {
         <title>ProphetGaming | Articles</title>
         <meta name="description" content="Articles" />
       </Head>
-
+      <TransitionEffect />
       <main className="w-full mb-16 flex flex-col items-center justify-center overflow-hidden dark:text-light">
         <Layout className="pt-16">
           <AnimatedText

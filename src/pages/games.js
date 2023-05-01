@@ -12,6 +12,7 @@ import outlasttrialsPic from '../../public/images/outlasttrials.jpg';
 import pubgPic from '../../public/images/pubg.jpg';
 import amongusPic from '../../public/images/amongus.jpg';
 import { motion } from 'framer-motion';
+import TransitionEffect from '@/components/TransitionEffect';
 
 const FramerImage = motion(Image);
 
@@ -119,6 +120,7 @@ const games = () => {
         <title>ProphetGaming | Games</title>
         <meta name="description" content="Games" />
       </Head>
+      <TransitionEffect />
       <main className="w-full mb-16 flex flex-column items-center justify-center dark:text-light">
         <Layout className="pt-16">
           <AnimatedText

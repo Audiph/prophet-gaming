@@ -8,6 +8,7 @@ import { useInView, useMotionValue, useSpring } from 'framer-motion';
 import Games from '@/components/Games';
 import Founders from '@/components/Founders';
 import Moderators from '@/components/Moderators';
+import TransitionEffect from '@/components/TransitionEffect';
 
 const AnimatedNumber = ({ value }) => {
   const ref = useRef(null);
@@ -38,6 +39,7 @@ const about = () => {
         <title>ProphetGaming | About</title>
         <meta name="description" content="About Prophet Gaming" />
       </Head>
+      <TransitionEffect />
       <main className="flex w-full flex-col items-center justify-center dark:text-light">
         <Layout className="pt-16">
           <AnimatedText
