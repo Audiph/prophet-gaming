@@ -52,29 +52,25 @@ const about = () => {
                 About&nbsp;Us
               </h2>
               <p className="font-medium">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget
-                aliquet nibh praesent tristique magna sit amet purus. Ante in
-                nibh mauris cursus mattis. Enim tortor at auctor urna nunc id
-                cursus. Dictum sit amet justo donec enim diam. Platea dictumst
-                quisque sagittis purus sit.
+                Hi, we are the Prophet Gaming, a gaming community with a passion
+                for playing video games and gaming culture. With&nbsp;
+                {new Date().getFullYear() - 2020}+ years active in the gaming
+                community. We started as a bunch of college students who love to
+                play video games and troll around our enemies in-game. We
+                welcome everyone who wants to be a part of our growing
+                community.
               </p>
               <p className="my-4 font-medium">
-                Volutpat ac tincidunt vitae semper quis lectus nulla at. Sapien
-                eget mi proin sed libero enim sed faucibus. Condimentum id
-                venenatis a condimentum vitae sapien. Ut sem nulla pharetra
-                diam. Ac ut consequat semper viverra nam libero justo. Dui
-                accumsan sit amet nulla facilisi morbi. Nullam non nisi est sit
-                amet facilisis magna etiam. A diam sollicitudin tempor id eu
-                nisl.
+                We believe that every age has its storytelling form, and video
+                gaming is a huge part of our culture. You can ignore or embrace
+                video games and imbue them with the best artistic quality.
+                People are enthralled with video games in the same way as other
+                people love the cinema or theatre.
               </p>
               <p className="font-medium">
-                Velit dignissim sodales ut eu sem integer. Suspendisse sed nisi
-                lacus sed viverra tellus. Eget mi proin sed libero enim. Blandit
-                libero volutpat sed cras ornare arcu dui. Enim nunc faucibus a
-                pellentesque sit amet porttitor. Nulla malesuada pellentesque
-                elit eget. Magna fermentum iaculis eu non diam phasellus
-                vestibulum lorem.
+                Whether the game is a MOBA, FPS, Survival, Horror, or Battle
+                Royale, we bring enjoyment and excitement to each one of our
+                members. We look forward to anyone who will join our community.
               </p>
             </div>
             <div className="col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-8 dark:bg-dark dark:border-light xl:col-span-4 md:order-1 md:col-span-8">

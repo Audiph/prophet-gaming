@@ -53,13 +53,13 @@ const Moderators = () => {
             name="Zoro-kol"
             role="Moderator"
             country="Philippines"
-            details="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            details="Works in the IT industry for years now. Mainly plays FPS games and a few other genres as well."
           />
           <Details
             name="Boss Gendo"
             role="Moderator"
             country="Philippines"
-            details="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            details="Works in the IT industry for years now. Mainly plays FPS games and a few other genres as well."
           />
         </ul>
       </div>

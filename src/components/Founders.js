@@ -53,25 +53,25 @@ const Founders = () => {
             name="Fauda"
             role="Creator"
             country="Philippines"
-            details="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            details="Works in the IT industry for years now. Mainly plays FPS games and a few other genres as well."
           />
           <Details
             name="Hugr"
             role="Co-Founder"
             country="Philippines"
-            details="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            details="Works in the IT industry for years now. Mainly plays Dota and a few other genres as well. The one who created this webpage."
           />
           <Details
             name="Kapitan Tiago"
             role="Co-Founder"
             country="Philippines"
-            details="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            details="Works in the IT industry for years now. Mainly plays FPS games and a few other genres as well."
           />
           <Details
             name="Krisp"
             role="Co-Founder"
             country="Philippines"
-            details="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            details="Works in the IT industry for years now. Mainly plays FPS games and a few other genres as well."
           />
         </ul>
       </div>
